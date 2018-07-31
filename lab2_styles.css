@@ -9,10 +9,22 @@ h1 {
 }
 
 p {
+	
     color: green;
     font-size: 24pt;
 }
-
+#important_paragraph:hover {
+	background: yellow;
+	font-size: 40pt;
+}
+.less_important_paragraph:hover{
+	color: blue;
+}
 a {
     color:red;
+}
+
+a:hover {
+	background: blue
+
 }
